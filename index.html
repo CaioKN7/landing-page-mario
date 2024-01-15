@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Mukta:wght@300;700&display=swap" rel="stylesheet">
+    <title>Super Mário</title>
+</head>
+
+<body>
+
+    <div class="caixa-video-mario">
+        <video src="./video/video.mp4" autoplay muted loop></video>
+        <div class="mascara-video"></div>
+    </div>
+
+    <div class="caixa-princial">
+        <img class="logo-mario" src="./imagens/Mario/logo.png" alt="Logo super mário">
+        <p>Encanadores Mário & Luigi - Resolvendo Seus Problema Com Estilo</p>
+        <p>
+            Você já se encontrou em uma situação de emergência com encanamento? Vazamrntos
+            inesperados, canos entupidos ou torneiras que não param de pingar? Não se preocupe,
+            porque estmoas aqui para salvar o dia! Apresentamos a vocês os encanadores mais famosos
+            do Reino dos Cogumelos - Mário e Luigi
+        </p>
+        <button onclick="clicouNoBotao()">ENTRE EM CONTATO</button>
+    </div>
+
+    <img class="mario-luigi" src="./imagens/Mario/mario.png" alt="Logo mário e luigi">
+
+
+    <form class="fale-conosco" action="https://formsubmit.co/stgaldinocaio@gmail.com" method="POST">
+        <h1>Fale conosco</h1>
+        <input type="text" name="nome" placeholder="Seu nome">
+        <input type="tel" name="telefone" placeholder="Seu telefone">
+        <textarea name="info" id="" cols="30" rows="10" placeholder="Digite seu problema aqui"></textarea>
+        <button onclick="sumirFormulario()">Enviar formulário</button>
+    </form>
+    <div class="mascara-formulario"></div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

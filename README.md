@@ -16,4 +16,4 @@ Sinta-se à vontade para experimentar o Super Mário e entrar em contato com ess
 <br>
 <br>
 <img src="https://github.com/caioamorielo/landing-page-mario/blob/main/imagens/Mario/Mario-readme.png?raw=true"/>
-
+<p>Primeiro projeto feito em Novembro de 2023 em um evento <a href="https://rodolfomori.com.br/devclub/">DevClub</a></p>
